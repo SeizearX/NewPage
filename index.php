@@ -23,7 +23,7 @@
       if (isset($_POST['password'])) {echo '<div class="alert alert-danger" role="alert">Błędne dane. Spróbuj ponownie.</div>';}
       ?>
       <label for="inputEmail" class="sr-only">Adres e-mail</label>
-      <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Adres e-mail" value="<?php echo $get; ?>" required>
+      <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Adres e-mail" value="" required>
       <label for="inputPassword" class="sr-only">Hasło</label>
       <input type="hidden" id="inputPassword" name="password" class="form-control" placeholder="Hasło">
       <div class="checkbox mb-3">
